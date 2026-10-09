@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday | October 9, 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #08090d;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .page {
+      min-height: 100vh;
+      padding: 45px 18px 25px;
+      text-align: center;
+      position: relative;
+      background:
+        radial-gradient(ellipse at top, #29203b 0%, #101019 42%, #08090d 80%);
+    }
+
+    .border-frame {
+      max-width: 1000px;
+      margin: auto;
+      border: 1px solid #c9a45c;
+      padding: 35px 20px;
+      position: relative;
+    }
+
+    .border-frame::before {
+      content: "";
+      position: absolute;
+      inset: 7px;
+      border: 1px solid rgba(201, 164, 92, 0.35);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      color: #e6c77d;
+      letter-spacing: 5px;
+      font-size: 11px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      color: #f2d28b;
+      font-size: clamp(48px, 9vw, 88px);
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      font-size: 12px;
+      letter-spacing: 4px;
+      color: #e9e1d0;
+      margin: 20px 0;
+    }
+
+    .intro {
+      max-width: 650px;
+      margin: 0 auto 32px;
+      color: #dedbe5;
+      font-size: 14px;
+      line-height: 1.9;
+      font-weight: 300;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      max-width: 680px;
+      margin: 0 auto 40px;
+    }
+
+    .photo-card {
+      border: 1px solid #c9a45c;
+      padding: 7px;
+      background: #121219;
+      transition: transform .4s ease, border-color .4s ease;
+    }
+
+    .photo-card:hover {
+      transform: translateY(-5px);
+      border-color: #ffe5a0;
+    }
+
+    .photo-card img {
+      display: block;
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .section-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 42px;
+      color: #f2d28b;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 28px 20px;
+      border-top: 1px solid rgba(201, 164, 92, .45);
+      border-bottom: 1px solid rgba(201, 164, 92, .45);
+    }
+
+    .message p {
+      font-size: 14px;
+      line-height: 2;
+      color: #e7e3eb;
+      margin-bottom: 16px;
+    }
+
+    .prayer {
+      color: #f0d99f !important;
+    }
+
+    .closing {
+      font-family: 'Great Vibes', cursive;
+      color: #f2d28b;
+      font-size: 35px;
+      margin-top: 25px;
+    }
+
+    .footer {
+      color: #a9a5af;
+      font-size: 10px;
+      letter-spacing: 2px;
+      margin-top: 38px;
+    }
+
+    .footer span {
+      color: #e6c77d;
+    }
+
+    .floating {
+      position: fixed;
+      top: -20px;
+      z-index: 5;
+      pointer-events: none;
+      animation: fall linear forwards;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .page {
+        padding: 20px 10px;
+      }
+
+      .border-frame {
+        padding: 32px 12px;
+      }
+
+      .photos {
+        gap: 10px;
+      }
+
+      .photo-card img {
+        height: 230px;
+      }
+
+      .intro, .message p {
+        font-size: 12px;
+      }
+
+      .date {
+        letter-spacing: 2px;
+        font-size: 10px;
+      }
+
+      .section-title {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <div class="border-frame">
+
+      <div class="eyebrow">A beautiful day • A beautiful soul</div>
+
+      <h1>Happy Birthday</h1>
+
+      <div class="date">09 · OCTOBER · 2026</div>
+
+      <p class="intro">
+        Today is a special reminder that your life is a gift,
+        your presence is a blessing, and your journey is still
+        unfolding into beautiful things. May this new chapter
+        bring you countless reasons to smile.
+      </p>
+
+      <!-- TWO PHOTOS -->
+      <section class="photos" aria-label="Birthday memories">
+
+        <div class="photo-card">
+          <img src="HA 1.jpg"
+               alt="Birthday memory one">
+        </div>
+
+        <div class="photo-card">
+          <img src="HA 2.jpg"
+               alt="Birthday memory two">
+        </div>
+
+      </section>
+
+      <h2 class="section-title">My Wishes & Prayers</h2>
+
+      <section class="message">
+
+        <p>
+          Happy birthday to you! 🎂 May this new age open
+          the doors to beautiful opportunities, genuine happiness,
+          peace of mind, good health, and wonderful achievements.
+        </p>
+
+        <p class="prayer">
+          May Almighty God go before you and make every crooked
+          path straight. May He bless the works of your hands,
+          grant you wisdom for every decision, protect you from
+          evil, and surround you with people who genuinely wish
+          you well.
+        </p>
+
+        <p class="prayer">
+          May sorrow never have the final word in your life.
+          May your efforts produce good results, your silent
+          prayers receive answers, and your heart find peace
+          even when life feels uncertain. May God grant you
+          strength for every challenge and grace for every new
+          beginning.
+        </p>
+
+        <p>
+          As you begin another year, may you experience
+          unexpected favour, lasting joy, divine direction,
+          and blessings beyond your imagination. May this
+          year give you beautiful memories to cherish and
+          countless testimonies to share.
+        </p>
+
+        <p class="prayer">
+          In Jesus' name, Amen. 🙏
+        </p>
+
+      </section>
+
+      <div class="closing">
+        Keep shining. Keep smiling. Keep growing.
+      </div>
+
+      <footer class="footer">
+        MADE WITH CARE BY <span>DYNAMO</span>
+        <br><br>
+        © 2026 DYNAMO. ALL RIGHTS RESERVED.
+      </footer>
+
+    </div>
+  </main>
+
+  <script>
+    function createFallingSymbol() {
+      const symbols = ["✦", "♡", "✧"];
+      const item = document.createElement("span");
+
+      item.className = "floating";
+      item.textContent =
+        symbols[Math.floor(Math.random() * symbols.length)];
+
+      item.style.left = Math.random() * 100 + "vw";
+      item.style.color = "#e6c77d";
+      item.style.fontSize = (10 + Math.random() * 12) + "px";
+      item.style.opacity = "0.7";
+
+      const duration = 5 + Math.random() * 5;
+      item.style.animationDuration = duration + "s";
+
+      document.body.appendChild(item);
+
+      setTimeout(() => item.remove(), duration * 1000);
+    }
+
+    setInterval(createFallingSymbol, 650);
+  </script>
+</body>
+</html>
